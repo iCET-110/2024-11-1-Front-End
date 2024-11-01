@@ -2,11 +2,12 @@ import { CommonModule } from '@angular/common';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { BrowserModule } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-add-customer-page',
   standalone: true,
-  imports: [FormsModule,CommonModule,HttpClientModule],
+  imports: [FormsModule,CommonModule],
   templateUrl: './add-customer-page.component.html',
   styleUrl: './add-customer-page.component.css'
 })
